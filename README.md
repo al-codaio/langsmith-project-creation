@@ -1,7 +1,4 @@
-# LangSmith JS Test
-
-A TypeScript project demonstrating LangSmith integration with OpenAI.
-
+# Create a new tracing project in LangSmith
 ## Prerequisites
 
 - Node.js (version 18 or higher)
@@ -93,4 +90,4 @@ langsmith-js-test/
 - `langsmith` - LangSmith SDK for tracing
 - `dotenv` - Environment variable loading
 - `typescript` - TypeScript compiler
-- `ts-node` - Run TypeScript directly 
+- `ts-node` - Run TypeScript directly
