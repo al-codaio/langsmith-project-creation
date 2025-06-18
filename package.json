@@ -1,0 +1,28 @@
+{
+  "name": "langsmith-js-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node --watch index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["langsmith", "openai", "typescript", "ai"],
+  "author": "",
+  "license": "ISC",
+  "description": "A TypeScript project demonstrating LangSmith integration with OpenAI",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "langsmith": "^0.3.33",
+    "openai": "^5.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
